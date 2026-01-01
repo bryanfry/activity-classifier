@@ -5,3 +5,27 @@ pip install -r requirements
 .
 .
 deactivate
+
+
+...........
+
+to install as editable package, 
+- have pyproject.toml file
+- pip install -e .
+
+
+..........
+
+Refactor lists
+
+- Get an app/CAP-24 independent repo / package that includes:
+    - ChunkableTimeSeries class from __init__.py
+    - SmartIIRFilter class from sigproc.py
+    - All the signal-processing bits.
+
+- Get a CAP-24 classifier repo / package that includes:
+    - features.py
+    .....
+
+
+    

@@ -1,3 +1,4 @@
+import os
 from activity_classifier import sigproc
 import activity_classifier as ac
 import numpy as np
